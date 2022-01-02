@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting System</title>
+</head>
+<body>
+    <div class="accountForm">
+       <form id="accountForm">
+           <input type="text" id="accountCode" required placeholder="Code">
+           <input type="text" id="accountLabel" required placeholder="Label">
+           <input type="button" id="addAccount" value="Add Account">
+        </form>
+        <br>
+        <table id="dataGrid">
+            <thead>
+                <tr>
+                    <th colspan="2">Code</th>
+                    <th colspan="2">Label</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="kernel.js"></script>
+    <script src="gui.js"></script>
+    <script src="controller.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
